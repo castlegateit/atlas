@@ -1,0 +1,17 @@
+// Mixins
+
+// Increase the specificity of a class selector by duplicating it an arbitrary
+// number of times to create a more specific compound class selector.
+@mixin atlas-specificity-hack($levels) {
+    $selector: &;
+    $level: 1;
+
+    @while $level < $levels {
+        $selector: $selector#{&};
+        $level: $level + 1;
+    }
+
+    @at-root #{$selector} {
+        @content;
+    }
+}

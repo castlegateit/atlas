@@ -1,0 +1,9 @@
+// Empty block inserted by JavaScript above the header block to provide
+// additional space when the header has a fixed position.
+.#{$atlas-prefix}header-fix {
+    &--is-fixed {
+        @include media-breakpoint-up(lg) {
+            height: $atlas-header-fixed-height-full;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+// WordPress classes for image and caption alignment. These are not BEM, but are
+// required for WordPress compatibility.
+
+.alignnone {
+    margin: $spacer 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: $spacer auto;
+}
+
+.alignleft {
+    float: left;
+    margin: $spacer $spacer $spacer 0;
+    max-width: calc(50% - #{$spacer});
+}
+
+.alignright {
+    float: right;
+    margin: $spacer 0 $spacer $spacer;
+    max-width: calc(50% - #{$spacer});
+}
+
+.wp-caption {
+    @extend .figure;
+
+    img {
+        @extend .figure-img;
+    }
+}
+
+.wp-caption-text {
+    @extend .figure-caption;
+}

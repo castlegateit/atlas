@@ -1,0 +1,25 @@
+// Variables
+//
+// The variables defined in this file can be overridden by a Sass source file
+// imported before this one.
+
+$atlas-prefix: 'atlas-' !default;
+
+// Navigation menu.
+$atlas-nav-background: $white !default;
+$atlas-nav-border-color: $border-color !default;
+$atlas-nav-border-width: $border-width !default;
+$atlas-nav-box-shadow: $box-shadow !default;
+$atlas-nav-link-padding-x: $list-group-item-padding-x !default;
+$atlas-nav-link-padding-y: $list-group-item-padding-y !default;
+
+// Navigation menu active states.
+$atlas-nav-active-border-color: $primary !default;
+$atlas-nav-active-border-width: 4px !default;
+
+// Fixed position header.
+$atlas-header-fixed-animation: 400ms #{$atlas-prefix}header-animation-in !default;
+$atlas-header-fixed-background: $white !default;
+$atlas-header-fixed-box-shadow: $box-shadow !default;
+$atlas-header-fixed-height-full: 120px !default;
+$atlas-header-fixed-height: 80px !default;
