@@ -1,10 +1,11 @@
 {
   "name": "castlegate-atlas",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Standard front end components",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx gulp",
+    "watch": "npx gulp watch"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
+    "gulp-cli": "^2.2.0",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^3.0.1",
     "gulp-filter": "^6.0.0",
