@@ -1,0 +1,39 @@
+{
+    "prefix": "atlas-",
+    "paths": {
+        "src": {
+            "css": "./src/scss/atlas.scss",
+            "cssBundle": "./src/scss/atlas-bundle.scss",
+            "cssAll": "./src/scss/**/*.scss",
+            "js": [
+                "./src/js/**/*.js",
+                "!./src/js/atlas-prefix.js"
+            ],
+            "jsBundle": [
+                "./node_modules/jquery/dist/jquery.js",
+                "./node_modules/bootstrap/dist/js/bootstrap.js",
+                "./src/js/**/*.js",
+                "!./src/js/atlas-prefix.js"
+            ],
+            "jsAll": "./src/js/**/*.js"
+        },
+        "dest": {
+            "css": "./dist/css",
+            "js": "./dist/js"
+        }
+    },
+    "plugins": {
+        "autoprefixer": {
+            "remove": false
+        },
+        "rename": {
+            "suffix": ".min"
+        },
+        "sass": {
+            "includePaths": [
+                "."
+            ],
+            "outputStyle": "nested"
+        }
+    }
+}

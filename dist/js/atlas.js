@@ -1,11 +1,4 @@
-// Atlas configuration and constants
-
-// Atlas block class prefix, which is also set in the Sass source
-// _variables.scss file.
-if (typeof ATLAS_PREFIX === 'undefined') {
-    ATLAS_PREFIX = 'atlas-';
-}
-
+ATLAS_PREFIX = "atlas-";
 // Fixed position header on scroll, using an empty spacer element to maintain
 // the vertical space that would normally be taken up by the static position
 // header only when the header has fixed position.

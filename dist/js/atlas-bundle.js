@@ -1,3 +1,4 @@
+ATLAS_PREFIX = "atlas-";
 /*!
  * jQuery JavaScript Library v3.4.1
  * https://jquery.com/
@@ -15032,14 +15033,6 @@ return jQuery;
 
 }));
 //# sourceMappingURL=bootstrap.js.map
-
-// Atlas configuration and constants
-
-// Atlas block class prefix, which is also set in the Sass source
-// _variables.scss file.
-if (typeof ATLAS_PREFIX === 'undefined') {
-    ATLAS_PREFIX = 'atlas-';
-}
 
 // Fixed position header on scroll, using an empty spacer element to maintain
 // the vertical space that would normally be taken up by the static position
