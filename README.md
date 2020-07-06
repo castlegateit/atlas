@@ -4,22 +4,22 @@
 
 Install with npm:
 
-    npm install castlegate-atlas
+    npm install @castlegate/atlas
 
 You can link to the bundled CSS and JavaScript files, which include [Bootstrap](https://getbootstrap.com/) and [jQuery](https://jquery.com/):
 
 ~~~ html
-<link rel="stylesheet" href="/node_modules/castlegate-atlas/dist/css/atlas-bundle.min.css">
-<script src="/node_modules/castlegate-atlas/dist/js/atlas-bundle.min.js"></script>
+<link rel="stylesheet" href="/node_modules/@castlegate/atlas/dist/css/atlas-bundle.min.css">
+<script src="/node_modules/@castlegate/atlas/dist/js/atlas-bundle.min.js"></script>
 ~~~
 
 Alternatively, you can incorporate the Sass and JavaScript source files into your project. For example:
 
 ~~~ scss
-@import '/path/to/node_modules/castlegate-atlas/src/scss/atlas';
+@import '/path/to/node_modules/@castlegate/atlas/src/scss/atlas';
 ~~~
 
-Then include the non-bundled JavaScript from `node_modules/castlegate-atlas/dist/js/atlas.js` or as individual files from `node_modules/castlegate-atlas/src/js`. These non-bundled Sass and JavaScript source files will require Bootstrap and jQuery to be installed separately.
+Then include the non-bundled JavaScript from `node_modules/@castlegate/atlas/dist/js/atlas.js` or as individual files from `node_modules/@castlegate/atlas/src/js`. These non-bundled Sass and JavaScript source files will require Bootstrap and jQuery to be installed separately.
 
 ## Prefix
 
